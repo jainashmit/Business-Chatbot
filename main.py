@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 import asyncpg
 import os
 
-DATABASE_URL = "postgresql://postgres:[YOUR-PASSWORD]@db.youmrwfedlcediroejfk.supabase.co:5432/postgres"
+DATABASE_URL = "postgresql://postgres:iamsmarthoon@db.youmrwfedlcediroejfk.supabase.co:5432/postgres"
 
 app = FastAPI()
 
